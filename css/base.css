@@ -1,0 +1,175 @@
+a,
+dd,
+div,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+input,
+li,
+ol,
+p,
+span,
+table,
+td,
+th,
+ul,
+body,
+html {
+	border: 0;
+	padding: 0;
+	margin: 0
+}
+
+body {
+	font-family:"黑体"; 
+}
+
+ol,
+ul {
+	list-style-type: none
+}
+
+a {
+	text-decoration: none
+}
+
+.clearfix:after {
+	/*万能清除浮动法*/
+	content: "020";
+	display: block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.clearfix {
+	*zoom: 1;
+	/*兼容IE6以下*/
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#box {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+}
+
+header {
+	width: 100%;
+	height: 1.55rem;
+	background: #23282e;
+	border: 0.025rem solid #1d2228;
+	padding-top: 0.6rem;
+}
+
+header ul {
+	color: #fff;
+}
+
+header ul a {
+	color: #fff;
+}
+
+header ul li {
+	float: left;
+	font-size: 0.7rem;
+}
+
+header ul .li1 {
+	margin: 0 0.55rem;
+}
+
+header ul .li3 {
+	margin: 0 5rem;
+}
+
+header ul li i {
+	font-size: 1 rem;
+}
+
+#main {
+	width: 100%;
+	flex: 1;
+	/*background:#d8d8d8;*/
+	overflow: hidden;
+	display: flex;
+	flex-flow: column;
+}
+
+footer {
+	width: 100%;
+	height: 2.5rem;
+	background: #000;
+	display: flex;
+	line-height: 2.5rem;
+	text-align: center;
+	font-size: 0.8rem;
+}
+
+footer a {
+	color: #484848;
+}
+
+footer div {
+	flex: 1;
+	width: 100%;
+	height: 100%;
+	line-height: 50%;
+	margin-top: 0.6rem;
+}
+
+.act a {
+	color: #fff;
+}
+
+footer div dl dd {
+	margin-top: 0.5rem;
+}
+
+.youce {
+	position: absolute;
+	bottom: 2.5rem;
+	right: 0;
+	width: 2.5rem;
+	height: 0rem;
+	background: -moz-linear-gradient(top, #999 0%, #000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #999), color-stop(100%, #000));
+	background: -webkit-linear-gradient(top, #999 0%, #000 100%);
+	background: -o-linear-gradient(top, #999 0%, #000 100%);
+	background: -ms-linear-gradient(top, #999 0%, #000 100%);
+	background: linear-gradient(to bottom, #999 0%, #000 100%);
+	text-align: center;
+	font-size: 0.8rem;
+	border-radius: 2rem 0 0 0;
+	overflow: hidden;
+	transition: all 3s;
+}
+
+.youce dl {
+	height: 3rem;
+	color: #fff;
+}
+
+.youce dl dt i {
+	font-size: 0.8rem;
+	line-height: 2rem;
+}
+
+.gd {
+	height: 10rem;
+}

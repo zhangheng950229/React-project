@@ -1,0 +1,257 @@
+#scrollbox{
+	width:100%;
+}
+#scrollbox .goods{
+	width:100%;
+	/*height:auto;*/	
+	border-top:0.5rem solid #d8d8d8;
+	border-bottom:0.5rem solid #d8d8d8;
+}
+#scrollbox .goods .kong{	
+	width:100%;
+	height:7.75rem;
+	text-align: center;
+	color:#aeaeae;
+	font-size: 0.6rem;
+}
+#scrollbox .goods .kong img{
+	width:3.75rem;
+	height:2.75rem;
+	margin-top:1.5rem;
+	margin-bottom:0.75rem;
+}
+#scrollbox .cainixihuan{
+	width:100%;
+	height:12.75rem;
+}
+.cainixihuan .cnxhtip{
+	width:100%;
+	height:1rem;
+	margin-top:0.75rem;
+	padding-left:0.4rem;
+}
+.cnxhtip span:nth-child(1),span:nth-child(3){
+	width:5.5rem;
+	height:0.025rem;
+	background:#000;
+	float: left;
+	margin:0.3rem 0.7rem;
+}
+.cnxhtip span:nth-child(2){
+	width:3.3rem;
+	height:0.625rem;
+	background:url(../img/cnxh.png) no-repeat center;
+	background-size: 100%;
+	float: left;
+}
+.cainixihuan .show{
+	width:100%;
+	padding-left:0.7rem
+}
+.cainixihuan .show dl{
+	width:7.5rem;
+	height:11.9rem;
+	border:0.025rem solid #e2e2e2;
+	border-radius: 0.1rem;
+	float: left;
+	margin:0.375rem 0.3rem;
+}
+.cainixihuan .show dl dt{
+	width:100%;
+	height:7.5rem;
+}
+.cainixihuan .show dl dt a img{
+	width:100%;
+	height:100%;
+}
+.cainixihuan .show dl dd{
+	padding:0 0.4rem;
+}
+.cainixihuan .show dl dd p{
+	line-height: 0.75rem;
+	margin: 0.5rem 0;
+}
+.cainixihuan .show dl dd p a{
+	font-size: 0.3rem;
+	color:#000;
+}
+.cainixihuan .show dl dd h5{
+	color:#5b5a5a;
+	font-size: 0.4rem;
+	line-height: 0.35rem;
+	font-weight: 100;
+}
+.cainixihuan .show dl dd b{
+	font-size: 0.4rem;
+	color:#49a0f5;
+}
+
+.goodslist{
+	width:100%;
+	height:4.3rem;
+	padding:0.6rem 0.7rem;
+	overflow: hidden;
+}
+.goodslist div{
+	float: left;
+}
+.goodslist .btn{
+	margin-top:1rem;
+}
+.goodslist .goodsimg{
+	width:2.625rem;
+	height:5.55rem;
+	margin-left:0.7rem;
+	margin-right:0.7rem;
+}
+.goodslist .goodsimg img{
+	width:100%;
+	height:3rem;
+}
+.goodslist .goodsinfo{
+	width:7.65rem;
+	/*background:red*/
+	/*margin-left:1rem;*/
+}
+.goodslist .goodsinfo p{
+	width:7.65rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 0.6rem;
+	color:#333;
+	font-weight: 900;
+	margin: 0.075rem 0 ;
+}
+.goodslist .goodsinfo h6{
+	font-size:0.6rem;
+	color:#999;
+	margin-bottom:0.5rem;
+}
+.goodslist .goodsinfo i{
+	font-size:0.5rem;
+	color:#333;
+	font-style: normal;
+	display: block;
+	font-weight: 900;
+}
+.goodslist .zj{
+	width:4.05rem;
+	height:1.1rem;
+	background:#000;
+	border-radius: 0.1rem;
+	color:#fff;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	border:0.025rem solid #000;
+	margin-top:0.45rem
+}
+.goodslist .zj b{
+	display: inline-block;
+	width:1.1rem;
+	height:100%;
+}
+.goodslist .zj em{
+	flex: 1;
+	background:#fff;
+	color:#000;
+	font-style: normal;
+}
+.goodsremove{0.85  1.5
+	width:0.75rem;
+	height:0.875rem;
+	font-size:1rem;
+	margin:1rem 0 0 1.5rem;
+}
+
+#jiesuan{
+	width:100%;
+	height:2.7rem;
+	border-top:0.025rem solid #ccc;
+}
+#jiesuan .qx{
+	width:2rem;
+	height:100%;
+	float: left;
+	line-height: 2.5rem;
+	text-align: center;	
+}
+#jiesuan span{
+	display: inline-block;
+	width:5rem;
+	height:100%;
+	color:#000;
+	font-size: 0.6rem;
+	float: left;
+	margin-top:1rem
+}
+#jiesuan .heji{
+	width:4.5rem;
+	float: left;
+	height:100%;
+	padding-top:0.7rem
+}
+
+#jiesuan .heji .p1{
+	font-size:0.55rem ;
+	color:#000000
+}
+#jiesuan .heji .p2{
+	font-size:0.4rem ;
+	color:#ccc;
+	float: right;
+}
+#jiesuan .btnjs{
+	float: left;
+	width:4.25rem;
+	height:2rem;
+	background:#000;
+	color:#fff;
+	font-size: 0.7rem;
+	text-align: center;
+	line-height: 2rem;
+	margin-left:0.8rem;
+	margin-top:0.3rem
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+header ul .li2{
+	margin:0 1rem;
+	font-size:0.7rem;
+	color:#7689b1;
+}
+header ul .li3{
+	margin:0  4rem;
+}
+.zazhi1{
+	height:11.75rem;
+	width:100%;
+	position: relative;
+	
+}
+.zazhi1 img{
+	height:9.6rem;
+	width:100%;
+	display: block;
+}
+.zazhi1_1{
+	height:9.6rem;
+	width:100%;
+	background:rgba(0,0,0,0.4);
+	color:#fff;
+	font-size:0.5rem;
+	text-align:center;
+	position: absolute;
+}
+.zazhi1_1 p:nth-child(1){
+	margin-top:3.85rem;
+	margin-bottom:0.75rem;
+	font-size:0.75rem;
+}
+.zazhi1_2{
+	height:2.15rem;
+	width:100%;
+	background:#262626;
+	line-height:2.15rem;
+	text-align:center;
+	color:#8598c0;
+	font-size:0.5rem;
+}

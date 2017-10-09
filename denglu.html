@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+		<script src="jquery-1.11.3.js"></script>
+		<script src="base.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/denglu.css"/>
+		<script src="js/denglu.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="dlbox">
+			<div class="header">
+				<span class="header1"> < </span>
+				<span class="header2">登录</span>
+			</div>
+			<div class="dlpic">
+				<img src="img/dengli1_1.jpg" alt="" />
+			</div>
+			<div class="np">
+				<input class="uname" type="text" placeholder="请输入手机号"/>
+				<input class="upwd"type="text" placeholder="请输入验证码（1234）"/>
+				<a href="###">忘记密码?</a>
+				<input class="btn"  type="button" value="登录"/>
+			</div>
+			<div class="shejiao">
+				<div class="shejiao1">
+					使用社交账号
+				</div>
+				<div class="shejiao2">
+					<img src="img/denglu1_3.jpg" alt="" />
+					<img src="img/denglu1_4.jpg" alt="" />
+					<img src="img/denglu1_5.jpg" alt="" />
+					<img src="img/denglu1_6.jpg" alt="" />
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(".btn").click(function(){
+			var reg=/^1234$/
+			var txt=$(".upwd").val()
+			if(!reg.test(txt)){
+				alert("您输入的验证码错误")
+			}else{
+				window.location="zhuye.html"
+			}
+		})
+		$(".header1").click(function(){
+			window.location="personal.html"
+		})
+
+	</script>
+</html>

@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+		<script src="jquery-1.11.3.js"></script>
+		<script src="iscroll.js"></script>
+		<script src="base.js"></script>
+		<style type="text/css">
+			.sousuo {
+				width: 100%;
+				height: 2.25rem;
+				background: #2f333e;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			
+			.sou {
+				width: 15.125rem;
+				height: 1.35rem;
+				border-radius: 0.68rem;
+			}
+			
+			.suo {
+				display: block;
+				background: url(img/sousuo.jpg);
+				background-size: 100% 100%;
+				height: 1.35rem;
+				width: 1.35rem;
+			}
+			
+			.swiper-pagination-bullet {
+				width: 8px;
+				height: 5px;
+				border-radius: 0;
+				display: inline-block;
+			}
+			
+			.swiper-container {
+				width: 100%;
+				height: 8.55rem;
+			}
+			
+			.banna1 {
+				background: url(img/ban1.jpg);
+				background-size: 100%;
+			}
+			
+			.banna2 {
+				background: url(img/ban2.jpg);
+				background-size: 100%;
+			}
+			
+			.banna3 {
+				background: url(img/ban3.jpg);
+				background-size: 100%;
+			}
+			
+			.banna4 {
+				background: url(img/ban4.jpg);
+				background-size: 100%;
+			}
+			
+			.banna5 {
+				background: url(img/ban5.gif);
+				background-size: 100%;
+			}
+			
+			.huodong {
+				display: flex;
+				width: 100%;
+				height: 21rem;
+			}
+			
+			.huodongl,
+			.huodongr {
+				width: 50%;
+				height: 100%;
+				flex: 1;
+			}
+			
+			.huodong img {
+				width: 100%;
+			}
+			
+			#main {
+				width: 100%;
+				height: 100%;
+				background: #fff;
+			}
+			
+			.yysjs {
+				width: 100%;
+			}
+			
+			.yybg {
+				width: 50%;
+				float: left;
+			}
+			
+			.rm {
+				overflow: hidden;
+			}
+			
+			.rmzb {
+				height: 4.3rem;
+				width: 100%;
+				font: 1.35rem/4.3rem "微软雅黑";
+				text-align: center;
+				background: #fff;
+				color: #484848;
+			}
+			
+			.splist {
+				width: 94%;
+				overflow: hidden;
+				background: #fff;
+				margin-bottom: 1rem;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				flex-wrap: wrap;
+				margin: 0 3%;
+			}
+			
+			.splist dl {
+				width: 5rem;
+				float: left;
+				overflow: hidden;
+				/*margin-left: 0.8rem;*/
+				margin-bottom: 0.8rem;
+				display: flex;
+				background: #f0f0f0;
+				flex-direction: column;
+			}
+			
+			.splist dl dt img {
+				width: 100%;
+			}
+			
+			.splist dl dd {
+				height: 2rem;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-line-clamp: 2;
+				-webkit-box-orient: vertical;
+				font: 0.4rem/1rem "微软雅黑";
+				width: 90%;
+				padding: 0 5%;
+				text-align: center;
+			}
+			
+			.zhuanti {
+				width: 94%;
+				overflow: hidden;
+				background: #fff;
+				display: flex;
+				justify-content: space-around;
+				flex-wrap: wrap;
+				padding: 0 3%;
+				
+			}
+			
+			.zhuanti dl {
+				width: 5rem;
+				height: 4.5rem;
+				margin-bottom: 0.5rem;
+				background: #f8f8f8;
+				display: flex;
+				flex-flow: column;
+				
+			}
+			
+			.zhuanti dl dt,
+			.zhuanti dl dd {
+				width: 100%;
+				flex: 1;
+				text-align: center;
+				padding: 3% 0;
+				font-size: 0.8rem;
+			}
+			
+			.zhuanti dl dt i {
+				display: block;
+				margin: 0 auto;
+				width: 2rem;
+				height: 2rem;
+				font-size: 1.5rem;
+			}
+			
+			#box1 {
+				width: 100%;
+				height: 100%;
+				position: relative;
+				display: flex;
+				flex-direction: column-reverse;
+			}
+			
+			#box1 img {
+				width: 100%;
+				position: absolute;
+			}
+			
+			.kefu p {
+				line-height: 2rem;
+				font-size: 1rem;
+				text-align: center;
+				display: flex;
+			}
+			
+			.kefu p i {
+				flex: 2;
+				text-decoration: line-through
+			}
+			
+			.kefu p span {
+				flex: 2;
+			}
+			
+			.kefu h5 {
+				line-height: 2rem;
+				font-size: 1.35rem;
+				font-weight: bolder;
+				text-align: center;
+			}
+			
+			.kefu div {
+				line-height: 2rem;
+				font-size: 1rem;
+				color: #989C9D;
+				text-align: center;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div id="box">
+			<header>
+				<ul>
+					<li class="li1">
+						<i class="iconfont icon-shouye"></i>
+					</li>
+					<li class="li2">
+						<a href="zhuye.html">首页</a>
+					</li>
+					<li class="li3">
+						<a href="kinds.html">分类</a>
+					</li>
+					<li class="li4">
+						<a href="shopcar.html">
+							<i class="iconfont icon-gouwuchetianjia"></i>
+							<i class="iconfont icon-my2line"></i>
+						</a>
+					</li>
+				</ul>
+			</header>
+			<div class="sousuo">
+				<input type="text" class="sou" value="" />
+				<b class="suo"></b>
+			</div>
+
+			<div id="main">
+				<div id="scrollbox">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide banna1"></div>
+							<div class="swiper-slide banna2"></div>
+							<div class="swiper-slide banna3"></div>
+							<div class="swiper-slide banna4"></div>
+							<div class="swiper-slide banna5"></div>
+						</div>
+						<!-- 如果需要分页器 -->
+						<div class="swiper-pagination"></div>
+
+					</div>
+					<div class="huodong">
+						<div class="huodongl">
+							<img src="img/xnpdj.jpg" />
+							<img src="img/zyhjz.jpg" />
+						</div>
+						<div class="huodongr">
+							<img src="img/zmrl.jpg" />
+							<img src="img/tyjy.jpg" />
+						</div>
+
+					</div>
+					<div class="rm">
+						<img class="yysjs" src="img/yysjs.jpg" />
+						<img class="yybg" src="img/mmmmm.jpg" />
+						<img class="yybg" src="img/hfyp.jpg" />
+
+					</div>
+					<h3 class="rmzb">-热卖周报-</h3>
+					<div class="splist">
+
+					</div>
+					<div class="zhuanti">
+						<dl>
+							<dt><i class="icon iconfont">&#xe600;</i></dt>
+							<dd>新品</dd>
+						</dl>
+						<dl>
+							<dt><i class="icon iconfont">&#xe6ac;</i></dt>
+							<dd>热门</dd>
+						</dl>
+						<dl>
+							<dt><i class="icon iconfont">&#xe78a;</i></dt>
+							<dd>折扣</dd>
+						</dl>
+						<dl>
+							<dt><i class="icon iconfont">&#xe61f;</i></dt>
+							<dd>买手推荐</dd>
+						</dl>
+						<dl>
+							<dt><i class="icon iconfont">&#xe6e5;</i></dt>
+							<dd>所有专题</dd>
+						</dl>
+						<dl>
+							<dt><i class="icon iconfont">&#xe7bc;</i></dt>
+							<dd>更多商品</dd>
+						</dl>
+					</div>
+					<div class="kefu">
+						<p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>
+							<span>客服电话</span>
+							<i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>
+						</p>
+						<h5>400-897-6336</h5>
+						<div>工作时间9:00--18:00</div>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<div class="act">
+					<a href="#">
+						<dl>
+							<dt><i class="iconfont icon-shouye"></i></dt>
+							<dd>首页</dd>
+						</dl>
+					</a>
+				</div>
+				<div>
+					<a href="kinds.html">
+						<dl>
+							<dt><i class="iconfont icon-icon"></i></dt>
+							<dd>分类</dd>
+						</dl>
+					</a>
+				</div>
+				<div>
+					<a href="shopcar.html">
+						<dl>
+							<dt><i class="iconfont icon-shouye2"></i></dt>
+							<dd>购物车</dd>
+						</dl>
+					</a>
+				</div>
+				<div>
+					<a href="personal.html">
+						<dl>
+							<dt><i class="iconfont icon-icon1"></i></dt>
+							<dd>个人中心</dd>
+						</dl>
+					</a>
+				</div>
+				<div id="butgd">
+					<a href="#">
+						<dl>
+							<dt><i class="iconfont icon-filter2"></i></dt>
+							<dd>更多</dd>
+						</dl>
+					</a>
+				</div>
+				<script type="text/javascript">
+				</script>
+
+			</footer>
+
+			<div class="youce">
+				<a href="zazhi.html">
+					<dl>
+						<dt><i class="iconfont icon-shouye"></i></dt>
+						<dd>杂志</dd>
+					</dl>
+				</a>
+				<a href="daren.html">
+					<dl>
+						<dt><i class="iconfont icon-shouye"></i></dt>
+						<dd>达人</dd>
+					</dl>
+				</a>
+				<a href="fenxiang.html">
+					<dl>
+						<dt><i class="iconfont icon-shouye"></i></dt>
+						<dd>分享</dd>
+					</dl>
+				</a>
+
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="swiper.min.js"></script>
+		<script type="text/javascript">
+			$.ajax({
+				type: "get",
+				url: "date/splist.json",
+				async: true,
+				success: function(aa) {
+					for(var i in aa) {
+
+						$(".splist").append("<dl data-id=" + i + ">" +
+							"<dt><img src='" + aa[i].src + "'/></dt>" +
+							"<dd>" + aa[i].name + "</dd>" +
+							"<dd>" + aa[i].price + "</dd></dl>")
+					}
+
+				}
+			});
+			window.onload = function() {
+				var mySwiper = new Swiper('.swiper-container', {
+					direction: 'horizontal',
+					loop: true,
+					autoplay: 3500,
+					//分页器
+					pagination: '.swiper-pagination'
+				})
+				new IScroll("#main", {
+					tap: true,
+					click: true
+				});
+
+				$(".splist").on("tap", "dl", function() {
+					location.href = "detail.html?id=" + $(this).data("id");
+				})
+
+			}
+		</script>
+	</body>
+
+</html>

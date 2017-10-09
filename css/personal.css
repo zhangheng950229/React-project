@@ -1,0 +1,94 @@
+#pheader{
+	height:2.4rem;
+	background:#131718;
+	color:#f8f9fb;
+	line-height: 2.4rem;
+	text-align: center;
+	font-size:0.85rem;
+}
+#main{
+	display: flex;
+	flex-flow: column;
+	
+}
+.personal_login{
+	flex: 1;
+	background:url(../img/bg.gif) no-repeat;
+	background-size:100% 100%;
+	position:relative;
+}
+.personal_login a{
+	display: block;
+}
+
+.personal_register{
+	height:1.85rem;
+	width:4.525rem;
+	opacity:0;
+	position:absolute;
+	top:6.5rem;
+	left:6.8rem;
+}
+.personal_order{
+	width:7.8rem;
+	height:2rem;
+	opacity: 0;
+	position:absolute;
+	top:10.5rem;
+	left:0.95rem;
+}
+.personal_hongbao{
+	width:7.8rem;
+	height:2rem;
+	opacity: 0;
+	position:absolute;
+	top:10.5rem;
+	right:1rem;
+}
+.personal_msg{
+	flex: 1;
+	background:#fff;
+	display: flex;
+	justify-content: center;
+}
+.personal_msg_fle{
+	height:100%;
+	width:80%;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+.personal_msg_fle2{
+	height:80%;
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.personal_msg_fle dl{
+	height:50%;
+	width:49%;
+	
+}
+.personal_msg_fle dl dd{
+	font-size:0.6rem;
+	text-align: center;
+	height:50%
+}
+.personal_msg_fle dl dt{
+	text-align: center;
+	height:50%;
+	color:#0086B3;
+}
+.personal_msg_fle dl:nth-child(1){
+	border-right:2px solid #e4e4e4;
+	border-bottom:2px solid #e4e4e4;
+}
+.personal_msg_fle dl:nth-child(2){
+	border-bottom:2px solid #e4e4e4;
+}
+.personal_msg_fle dl:nth-child(3){
+	border-right:2px solid #e4e4e4;
+}
+.personal_msg_fle dl .icon{
+	font-size:2rem;
+}

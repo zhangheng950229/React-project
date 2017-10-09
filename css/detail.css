@@ -1,0 +1,147 @@
+#box{
+	height:100%;
+	width:100%;
+	overflow: hidden;
+}
+#personal_header{
+	position:fixed;
+	font-size:0.8rem;
+	line-height:2rem;
+	top:0;
+	height:2rem;
+	width:100%;
+	background:#24272f;
+	
+}
+
+.index{
+	float:left;
+	padding-left:0.2rem;
+	color:#ffffff;
+}
+.in{
+	float:right;
+	padding-right:0.2rem;
+	color:#ffffff;
+}
+.detail{
+	background:#fff;
+}
+.detail_list{
+	height:16rem;
+	width:100%
+	overflow: hidden;
+		
+} 
+img{
+	height:16rem;
+	width:100%;
+}
+footer{
+	position:fixed;
+	font-size:0.8rem;
+	line-height:2rem;
+	bottom:0;
+	height:2rem;
+	width:100%;
+	background:#24272f;
+	display: flex;
+	justify-content: space-around;	
+	color:#fff;
+}
+.personal_guestlike {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	
+}
+.personal_guestlike dl{
+	cursor:pointer;
+	height:48%;
+	width:48%;
+}
+.personal_guestlike dl dd{
+	padding-bottom:0.5rem;
+}
+.personal_guestlike img{
+	height:5rem;
+}
+.detail_pirce{
+	color:#0c79cc;
+}
+p{
+	font-size:0.6rem;
+}
+.kb{
+	height:3rem;
+	width:100%;
+}
+.hkb{
+	height:2rem;
+	width:100%;
+	background:#ccc;
+	text-align: center;
+	font-size: 0.5rem;
+	line-height: 2rem;
+}
+.wrap{
+	padding:0 0.5rem;
+}
+.goodsInfo{
+	padding:1rem 0;
+}
+.goods p:nth-child(3){
+	font-size:0.4rem;
+	margin-top:0.4rem;
+	padding-bottom:0.5rem;
+	border-bottom:1px solid #ccc;
+}
+.goods p:nth-child(3) span{
+	padding-right:0.5rem;
+}
+.goods p:nth-child(4){
+	padding:0.75rem 0;
+}
+.goods p:nth-child(5){
+	padding:0.75rem 0;
+	border-bottom:1px solid #ccc
+}
+.goods p:nth-child(5) input{
+	background:#fff;	
+	border:1px solid #999999;
+	height:1rem;
+	width:2rem;
+}
+.goods p:nth-child(6){
+	margin-top:1rem;
+}
+.goods p:nth-child(7){
+	margin-top:1rem;
+	padding-bottom:1rem;
+	border-bottom:1px solid #ccc;;
+}
+.goods p:nth-child(7) span{
+	display: inline-block;
+	padding:0.3rem;
+	border:1px solid #CCCCCC;
+}
+.goods_num{
+	width:1rem;
+	border-left:0;
+	border-right:0;
+}
+h5{
+	margin:0.5rem 0;
+	font-size:0.5rem;
+	height:2rem;
+	line-height:2rem;
+	background:#ccc;
+}
+.detail_tuijian p{
+	height:1rem;
+	font-size:0.5rem;
+	line-height:0.5rem;
+	color:#666666;
+	height:2rem;
+	line-height:2rem;
+}
